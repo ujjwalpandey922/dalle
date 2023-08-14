@@ -10,7 +10,7 @@ const Header = () => {
           <Image src="/assets/logo.svg" alt="LOGO" height={100} width={100} />
         </Link>
       </div>
-      <button className="bg-slate-600 p-2 text-red-50 rounded-lg hover:bg-slate-700 transition-colors ">
+      <button className="bg-slate-600 p-2 text-red-50 rounded-lg hover:bg-slate-700 active:scale-105  transition-colors ">
         <Link href="/createPage">Create</Link>
       </button>
     </header>

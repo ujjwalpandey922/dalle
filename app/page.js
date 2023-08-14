@@ -18,7 +18,7 @@ const Home = () => {
   const [searchText, setSearchText] = useState("");
   const [allSearchedPosts, setAllSearchedPosts] = useState([]);
   return (
-    <section className="max-w-7xl mx-auto flex flex-col gap-4">
+    <section className="max-w-7xl mx-auto flex flex-col gap-4 p-4">
       <div>
         <h1 className="text-xl font-bold text-black">The Community Showcase</h1>
         <p className="text-sm font-semibold text-gray-500">
